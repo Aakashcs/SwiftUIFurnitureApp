@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0775DDE224A661DD00A03C51 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0775DDE124A661DD00A03C51 /* Extensions.swift */; };
 		077C875724A604CC00C3ABD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077C875624A604CC00C3ABD0 /* AppDelegate.swift */; };
 		077C875924A604CC00C3ABD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077C875824A604CC00C3ABD0 /* SceneDelegate.swift */; };
 		077C875B24A604CC00C3ABD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077C875A24A604CC00C3ABD0 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0775DDE124A661DD00A03C51 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		077C875324A604CC00C3ABD0 /* FurnitureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurnitureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		077C875624A604CC00C3ABD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		077C875824A604CC00C3ABD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0775DDE024A661AB00A03C51 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0775DDE124A661DD00A03C51 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		077C874A24A604CC00C3ABD0 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		077C875524A604CC00C3ABD0 /* FurnitureApp */ = {
 			isa = PBXGroup;
 			children = (
+				0775DDE024A661AB00A03C51 /* Extensions */,
 				077C875624A604CC00C3ABD0 /* AppDelegate.swift */,
 				077C875824A604CC00C3ABD0 /* SceneDelegate.swift */,
 				077C875A24A604CC00C3ABD0 /* ContentView.swift */,
@@ -149,6 +160,7 @@
 				077C875724A604CC00C3ABD0 /* AppDelegate.swift in Sources */,
 				077C875924A604CC00C3ABD0 /* SceneDelegate.swift in Sources */,
 				077C875B24A604CC00C3ABD0 /* ContentView.swift in Sources */,
+				0775DDE224A661DD00A03C51 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
